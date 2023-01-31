@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+}
+
+ul.menud{
+    list-style:none ;
+    color: aliceblue;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+ul.menud li:hover{
+    background-color: rgba(202, 9, 228, 0.478);
+    color: rgb(8, 8, 8);
+}
+
+div{
+    text-align: center;
+}
+.nosotros{
+    background-image:url(https://a-static.besthdwallpaper.com/flowers-and-butterflies-wallpaper-2560x1600-26635_7.jpg) ;
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    height: 10px;
+    padding: 10px;
+}
+.ome{
+    background-color: rgba(212, 17, 222, 0.355);
+    border: solid 1px;
+    border-style: dashed;
+    color: aliceblue;
+}
+.menu2{
+    height: 120px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(248, 251, 253);
+    background-color: rgba(230, 0, 255, 0.472);
+    align-items: center;
+    justify-content: center;
+}
+.perf{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 255, 255, 0.502);
+    color: rgb(240, 242, 245);
+}
+.maq{
+    display: flex;
+    justify-content: center;
+    gap:auto;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(225, 255, 0, 0.623);
+    color: rgb(240, 243, 245);
+}
+.rop{
+    display: flex;
+    justify-content: center;
+    gap:auto;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(255, 0, 225, 0.623);
+    color: rgb(240, 243, 245);
+}
+.calz{
+    display: flex;
+    justify-content: center;
+    gap:auto;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 255, 17, 0.623);
+    color: rgb(240, 245, 241);
+}
+article{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 23px;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+}

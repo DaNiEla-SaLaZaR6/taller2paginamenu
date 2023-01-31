@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="onctatanos.css">
+</head>
+<body class="contactanos">
+    <br><br>
+    <header>
+        <h1>Extreme Beauty</h1>
+        <br>
+        <ul class="menu3">
+            <li><svg class="icon icon-home3"><use xlink:href="#icon-home3"></use><symbol id="icon-home3" viewBox="0 0 32 32">
+                <path d="M32 19l-6-6v-9h-4v5l-6-6-16 16v1h4v10h10v-6h4v6h10v-10h4z"></path>
+                </symbol></svg><a href="./index.html"> Inicio</a></li>
+            <li><a href="./index2.html"> ¿Quienes Somos?</a></li>
+            <li><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use><symbol id="icon-phone" viewBox="0 0 32 32">
+                <path d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"></path>
+                </symbol></svg> <a href="./index3.html"> Contactenos</a></li>
+        </ul>
+    </header>
+  
+</body>
+
+<main class="goo">
+<div class="contenedor">
+    <header>
+        <br>
+        <h1 id="m_title">Informacion Personal</h1>
+        <p id="m_description">Escribe correctamente tus datos para ponernos en contacto.</p>
+    </header>
+    <br>
+
+    <form id="m_survey-form" target="_blank">
+        
+            <label for="m_name" id="m_name-label" >Nombre</label>
+
+            <input type="text" name="nombre" id="m_name" placeholder="Escriba su nombre...">
+            
+        
+
+        <br>
+            <label for="m_email" id="m_email-label">Email</label>
+            <input type="email" id="m_email" name="email" placeholder="Ingresa su email...">
+            
+        <br>
+              <label for="m_number" id="m_number-label">Edad <span>(optional)</span></label>
+            <input type="number" id="m_number" name="number" placeholder="Escriba su edad...">
+            
+
+        <br>
+            <p class="m_select">Selecciones su pais.</p>
+            <select name="seleccionar" id="m_dropdown">
+                <option value="Colombia" selected>Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Estado Unidos">Estado Unidos</option>
+                <option value="España">España</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+        
+            <br>
+            <p id="m_radio">Trabaja</p>
+            <div class="m_radio">
+                <div>
+                    <input type="radio" name="opcion" value="Independiente">
+                    <span> Independiente.</span>
+                </div>
+                
+                
+                <div>
+                    <input type="radio" name="opcion" value="Desde Casa">
+                    <span> Desde Casa</span>
+                </div>
+                
+                <div>
+                    <input type="radio" name="opcion" value="No Trabaja"><span>No Trabaja</span>
+                </div>    
+            </div>
+            
+        <br>
+            <p class="m_select">¿Ingreso Mensual?</p>
+            <select name="select" id="m_select">
+                <option name="select" value="Menos de un Minimo">Menos de un Minimo</option>
+                <option name="select" value="Salario Minimo">Salario Minimo</option>
+                <option name="select" value="Dos Salario Minimo">Dos Salario Minimo</option>
+                <option name="select" value="Ingreso mayor a 4.000.000">Ingreso mayor a 4.000.000</option>
+                <option name="select" value="Otro">Otro.</option>
+            </select>
+    
+        <br>
+        <p id="m_check">En que deseas que te ayuemos<span>(puedes seleccionar mas de una opcion)</span></p>
+        <div class="m_check">
+        <div><input name="checkbox" type="checkbox" value="Asesoria">Asesoria</div>
+        <div><input name="checkbox" type="checkbox" value="Ropa">Ropa</div>
+        <div><input name="checkbox" type="checkbox" value="Calzado">Calzado</div>
+        <div><input name="checkbox" type="checkbox" value="Maquillaje">Maquillaje</div>
+        <div><input name="checkbox" type="checkbox" value="Perfumes">Perfumes</div>
+
+    </div>
+    
+        <br>
+        <p id="m_sugestion">Deseas agregar un comentario?</p>
+        <textarea name="" id="m_coments" placeholder="Escribe..."></textarea>
+    
+        <input type="submit" id="m_submit" value="Enviar"> <br><br>
+        <center>
+        <footer>
+            <p>&copy lizeth Daniela Salazar Anaya</p>
+        </footer>
+    </center>
+    </form>
+   
+</div>
+</main>
+</html>
